@@ -18,7 +18,7 @@ function Navbar() {
     <div className='links'>
       <Link to="/">Home</Link>
       {!user ? <Link to="/login">Login</Link> :
-          <Link to="/createpost">Create Post</Link>
+          <Link to="/createpost">Create Posts</Link>
       }
       
       
